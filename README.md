@@ -6,11 +6,12 @@ One way to build infrastructure quickly is with Docker. So we can easily setup S
 ( $ wget https://raw.githubusercontent.com/imamcs19/edubig-spark-standalone-cluster-and-support-streamlit-port-on-docker/master/docker-compose.yml )
 
 2. Install docker-compose
-$ sudo apt-get remove docker-compose
-$ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-$ sudo chmod +x /usr/local/bin/docker-compose
-$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+    $ sudo apt-get remove docker-compose
+    $ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    $ sudo chmod +x /usr/local/bin/docker-compose
+    $ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+    
 3. docker-coompose up
 
 4. Run jupyterlab (open your browser visit url ip-public:8888). 
