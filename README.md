@@ -12,7 +12,7 @@ In Big Data Analysis, we focus on how to implement and write code, not focus on 
 <li>$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose</li>
 </ul>
 
-3. docker-coompose up
+3. docker-compose up
 
 4. Run jupyterlab (open your browser visit url ip-public:8888). 
 
