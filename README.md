@@ -9,18 +9,11 @@ One way to build infrastructure quickly is with Docker. So we can easily setup S
 
 <ul>
 <li>$ sudo apt-get remove docker-compose</li>
-<li>Maven</li>
-<li>ZooKeeper</li>
-<li>Kafka</li>
-<li>Cassandra</li>
-<li>Spark</li>
-<li>Docker</li>
-<li>HDFS</li>
+<li>$ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose</li>
+<li>$ sudo chmod +x /usr/local/bin/docker-compose</li>
+<li>$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose</li>
 </ul>
-    $ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-    $ sudo chmod +x /usr/local/bin/docker-compose
-    $ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-    
+
 3. docker-coompose up
 
 4. Run jupyterlab (open your browser visit url ip-public:8888). 
