@@ -1,6 +1,4 @@
-In Big Data Analysis, we focus on how to implement and write code, not focus on building the infrastructure.
-
-One way to build infrastructure quickly is with Docker. So we can easily setup Spark multi-node environment (Zookeper, Kafka, Spark-master, Spark-worker, and Jupyterlab) for algorithm implementation in processing datasets on docker, in seconds. : D
+In Big Data Analysis, we focus on how to implement and write code, not focus on building the infrastructure. One way to build infrastructure quickly is with Docker. So we can easily setup Spark multi-node environment (Zookeper, Kafka, Spark-master, Spark-worker, and Jupyterlab) for algorithm implementation in processing datasets on docker, in seconds. : D
 
 1. Download docker-compose
 ( $ wget https://raw.githubusercontent.com/imamcs19/edubig-spark-standalone-cluster-and-support-streamlit-port-on-docker/master/docker-compose.yml )
