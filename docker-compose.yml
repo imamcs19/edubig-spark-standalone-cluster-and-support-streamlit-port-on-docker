@@ -23,7 +23,7 @@ services:
 #     volumes:
 #       - /var/run/docker.sock:/var/run/docker.sock
   jupyterlab:
-    image: imamcs/ubig1-jupyterlab:version1.1
+    image: imamcs/ubig1-jupyterlab
     container_name: jupyterlab
     ports:
       - 8888:8888
